@@ -1,0 +1,68 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white border-b shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold">Ayaan</div>
+      <ul class="flex space-x-6 font-medium">
+        <li><a href="./home.html" class="hover:text-red-500">Home</a></li>
+        <li><a href="./aboutme.html" class="hover:text-red-500">About me</a></li>
+        <li><a href="./aboutjus.html" class="hover:text-red-500">About JUS</a></li>
+        <li><a href="./xafada.html" class="hover:text-red-500">About xafada</a></li>
+        <li><a href="./contact.html" class="hover:text-red-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-black text-white text-center py-16">
+    <img src="./image/ayan.png" alt="My Photo" class="w-32 h-32 mx-auto rounded-full mb-4" />
+    <h2 class="text-2xl font-bold">Nafteyda</h2>
+    <p class="text-sm mt-2">Waxaan ahay qof hal abuur leh oo jecel design & horumarin</p>
+    <a href="#" class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Read More</a>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="bg-white text-center py-16 px-4">
+    <h2 class="text-xl font-semibold mb-4">about me</h2>
+    <p class="max-w-xl mx-auto mb-8">Macluumaadkayga guud. Waxaan ahay qof jecel waxbarashada, shaqada, iyo horumarka. Waxaan bartaa cilmiga kumbuyuutarka iyo farshaxanka.</p>
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div>
+        <img src="./image/ani.png" alt="Myself" class="w-64 h-31 mb-2">
+        <h3 class="font-bold mb-2">my self</h3>
+        <p class="mb-2 text-sm">Anigu waxaan ahay arday ku jira heer jaamacadeed.</p>
+        <button class="bg-orange-400 text-white px-3 py-1 rounded">Read</button>
+      </div>
+      <div>
+        <img src="./image/gbr bug.jpg" alt="Girl with book" class="w-64 h-50 mb-2">
+        <h3 class="font-bold">waxbarashadeyda</h3>
+        <p class="text-sm">Waxaan bartaa culuum kala duwan oo ay ka mid tahay graphic design iyo video editing.</p>
+        <button class="bg-blue-600 text-white px-3 py-1 rounded mt-2">View all</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-black text-white py-12 px-4">
+    <h2 class="text-center text-xl font-semibold mb-6">contact</h2>
+    <form class="max-w-md mx-auto space-y-4">
+      <input type="email" placeholder="Enter your email" class="w-full px-4 py-2 rounded text-black" />
+      <input type="text" placeholder="Name" class="w-full px-4 py-2 rounded text-black" />
+      <textarea placeholder="Write your message" class="w-full px-4 py-2 rounded text-black"></textarea>
+      <button type="submit" class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded w-full">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-1 text-xs">
+    <p>© 2025 Ayaan <span class="text-red-500">♥</span></p>
+  </footer>
+</body>
+</html>
